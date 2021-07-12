@@ -1,0 +1,82 @@
+import axios from 'axios';
+import React, { useState, useEffect } from 'react'
+import { useHistory } from 'react-router-dom';
+import Post from './Post'
+
+
+
+function Posts() {
+    let history=useHistory()
+    const [user, setUser] = useState({
+        username:'',
+        _id:'',
+        email:'',
+        password:'',
+        postsLiked:[],
+        postsDisliked:[],
+    })
+    const [posts, setPosts] = useState([{
+        username: '',
+        _id: '',
+        timeStamp: '',
+        title: '',
+        content: '',
+        likedBy: [],
+        dislikedBy: [],
+        comments:[{user:'', comment:''}]
+    
+
+    }])
+
+    useEffect(() => {
+        fetch("http://localhost:3001/posts")
+        .then(res=>{
+            if(res.ok){
+                return res.json()
+                
+            }
+        })
+        .then(jsonRes=>{
+            jsonRes.sort(function(a,b){
+                let usersReactedA= a.likes+a.dislikes+a.nocomments
+                let usersReactedB= b.likes+b.dislikes+b.nocomments
+                return usersReactedB-usersReactedA
+            })
+            setPosts(jsonRes)
+        });
+        let token=localStorage.getItem('token');
+        if(token){
+            axios.post('http://localhost:3001/auth', {token:token})
+            .then(res=>{
+                if(res.data===false){
+                    history.push('/login')
+                }else{
+                    setUser(res.data)
+                }
+            })
+            .catch(err=>{
+                console.log(err)
+            })
+        }else{history.push('/login')}
+    }, [])
+
+
+        
+    
+return(
+    <div>
+      {posts.map(post=>{
+          return(
+              <div>
+                  <Post post={post} user={user}/>
+
+              </div>
+          )
+              
+          
+      })}
+          
+         
+    </div>
+)}
+export default Posts

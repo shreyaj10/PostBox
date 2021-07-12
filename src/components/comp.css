@@ -1,0 +1,1613 @@
+@media screen and (max-width:600px) {
+.success{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin: auto;
+}
+.menuItem1{
+    color: wheat;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.menuItem{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: none;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 30%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+  background-color: black;
+  color: white;
+}
+.menuItem:hover{
+    background-color: white;
+    color: black;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 20px 20px rgb(12, 12, 12);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    height: 475px;
+    width: 421px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgb(226, 223, 223);
+    margin: auto;
+    /* padding-left: 204px; */
+}
+#dropIcon{
+    height: 30px;
+    width: 20px;
+}
+#navItem1{
+    color: blanchedalmond;
+    text-decoration: none;
+    height: 30px;
+}
+.navItem1{
+    background-color: black;
+    text-decoration: none;
+    cursor:pointer;
+    width: 50px;
+    color: blanchedalmond;
+    border: none;
+}
+.BigContainer{
+    width:705px;
+}
+    
+
+body{
+    background-color: rgb(23, 23, 24)
+
+} 
+.createPost{
+    /* background-color: rgb(54, 58, 57); */
+    margin: 2px solid black;
+    padding:4px;
+    display: flex;
+    /* justify-content: center; */
+    
+
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:row;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    padding: 2px; 
+    margin-bottom: 20px;
+    width: 100%;
+
+    
+}
+.navItem{
+    text-decoration: none;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: none;
+}
+.navItem:hover{
+    color: gray;
+    display: none;
+}
+
+h4{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: none;
+}
+
+/* h3{
+    color: wheat;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-grow: inherit;
+
+} */
+.SignUp{
+    box-shadow: 2px 20px 20px rgb(12, 12, 12);
+    padding-top: 22px;
+    height: 475px;
+    width: 421px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgb(226, 223, 223);
+    margin: auto;
+    display: block;
+    /* padding-left: 204px; */
+
+}
+#brand{
+    font-family: 'Bona Nova', serif;
+    
+    /* color: rgb(140, 212, 235); */
+    color: white;
+    font-size: 35px;
+    
+}
+.Input{
+    
+    padding:20px;
+    border-radius: 5px;
+    border-color: black;
+}
+#password{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 15px 20px rgb(26, 23, 23);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline:none;
+}
+
+#Email{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 15px 20px rgb(26, 23, 23);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+}
+
+#username{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 15px 20px rgb(26, 23, 23);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+}
+#h1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 150px;
+    display: block;
+    margin: auto;
+}
+
+.btn1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: none;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+  background-color: black;
+  color: white;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.createUser{
+    
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 10px;
+
+ }
+#remark{
+     color: black;
+     text-decoration: none;
+     padding-left: 101px;
+
+ }
+#remark:hover{
+     color: gray;
+ }
+  
+
+
+.homeBtn{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: none;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  width: 500px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+  background-color: black;
+  color: white;
+  padding-right: 100px;
+}
+
+#item{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(204, 173, 196);
+    text-align: center;
+    padding-top: 19px;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-grow: inherit;
+    
+}
+.homeBtn:hover{
+    background-color: white;
+    color: black;
+}
+.class{
+    
+    padding-top: 20px;
+    height: 500px;
+    
+}
+
+.text1{
+    color: wheat;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.text2{
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+    color: wheat;
+}
+#h2{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 150px;
+    display: block;
+    margin: auto;
+}
+.Post{
+    background-color: rgba(40, 31, 82, 0.37);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: auto;
+    border-radius: 30px;
+    /* align-items: center; */
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px rgb(147, 235, 235);
+}
+#usern{
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    color: grey;
+}
+.intro{
+    display: flex;
+}
+#time{
+    color: grey;
+    margin-top: 10px;
+}
+#title{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    margin-top: 2px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    color: wheat;
+}
+#desc{
+    font-family: 'Alfa Slab One', cursive;
+    padding-left: 10px;
+    font-size: 20px;
+    color: wheat;
+    
+}
+#upBtn{
+    background-color:  rgba(66, 116, 150, 0.37);
+    cursor: pointer;
+    color: rgb(253, 253, 253);
+    border:none;
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 30px;
+    width: 95px;
+    border-radius: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+#downBtn{
+    cursor: pointer;
+    background-color:  rgba(66, 116, 150, 0.37);
+    color: rgb(253, 253, 253);
+    border:none;
+    margin-right: 10px;
+    height: 30px;
+    width: 95px;
+    border-radius: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.count{
+    color: thistle;
+    margin-left: 10px;
+    display: flex;
+}
+#upvote{
+    padding-right: 10px;
+    padding-left: 5px;
+
+}
+#downvote{
+        padding-right: 10px;
+        padding-left: 10px;
+}
+#comms{
+    display: flex;
+    padding-right: 50px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#comment{
+        
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+#commBtn{
+        border-radius: 10px;
+        color: wheat;
+        cursor: pointer;
+        background-color: black;
+        border: none;
+        
+    }
+    #commBtn:hover{
+        background-color: transparent;
+        border: 2px solid wheat;
+}
+#comment1{
+    display: block;
+    border: none;
+    border-bottom: 2px solid wheat;
+    background: transparent;
+    color: wheat;
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+    height: 30px;
+    
+}
+#comment1::placeholder{
+    color: white;
+}
+#comment1:focus{
+   outline: none;
+
+}
+.createAPost{
+    padding-left: 5px;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    padding-top: 2px;
+
+}
+.createPost{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* justify-content:center; */
+    align-items: center;
+}
+.container1{
+    box-shadow: 2px 20px 20px rgb(2, 2, 2);
+    height: 500px;
+    width: 421px;
+    border-radius: 10px;
+    background-color: rgb(243, 221, 180);
+    margin: auto;
+    display: block;
+}
+#title1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 15px 20px rgb(26, 23, 23);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+}
+#content1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 15px 20px rgb(26, 23, 23);
+    padding:10px;
+    padding-top:20px;
+    border-radius: 10px;
+    width: 375px;
+    height: 150px;
+}
+#title5{
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+#content5{
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
+#postBtn{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: none;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+  background-color: black;
+  color: white;
+}
+#postBtn:hover{
+    background-color: white;
+    color: black;
+}
+#delete{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color:  rgba(66, 116, 150, 0.37);
+    cursor: pointer;
+    color: rgb(253, 253, 253);
+    border:none;
+    margin-left: 5px;
+    height: 30px;
+    width: 95px;
+    border-radius: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.DeleteIcon{
+    height:16px;
+    width: 20px;
+}
+#commSec{
+    display: flex;
+    height: 30px;
+    width:80%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+   
+}
+#commUser{
+    font-family: 'Uchen', serif;
+    color: rgb(147, 235, 235);
+    padding-right: 5px;
+    text-decoration: underline;
+}
+#commComm{
+    font-family: 'Uchen', serif;
+    color: rgb(172, 139, 175);
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1440px){
+    .success{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        color: white;
+        margin: auto;
+    }
+    .menuItem1{
+        color: wheat;
+        text-decoration: none;
+        cursor: pointer;
+        display:none;
+    
+    }
+    .menuItem{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      width: 30%;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+      display:none;
+    }
+    .menuItem:hover{
+        background-color: white;
+        color: black;
+        display:none;
+    }
+    
+    .Menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 2px 20px 20px rgb(12, 12, 12);
+        padding-top: 22px;
+        padding-bottom: 22px;
+        height: 475px;
+        width: 421px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color:rgb(226, 223, 223);
+        margin: auto;
+        display:none;
+        /* padding-left: 204px; */
+    }
+    #dropIcon{
+        height: 30px;
+        width: 20px;
+        display:none;
+    }
+    #navItem1{
+        color: blanchedalmond;
+        text-decoration: none;
+        height: 30px;
+        display:none;
+    }
+    .navItem1{
+        background-color: black;
+        text-decoration: none;
+        cursor:pointer;
+        width: 50px;
+        color: blanchedalmond;
+        border: none;
+        display:none;
+    }
+    /* .BigContainer{
+        width:705px;
+    }
+         */
+    
+    
+    body{
+        background-color: rgb(23, 23, 24)
+    
+    } 
+    .createPost{
+        /* background-color: rgb(54, 58, 57); */
+        margin: 2px solid black;
+        padding:4px;
+        display: flex;
+        /* justify-content: center; */
+        
+    
+    }
+    
+    .navbar{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction:row;
+        /* justify-content: space-between; */
+        justify-content: space-evenly;
+        padding: 2px; 
+        margin-bottom: 20px;
+        width: 1500px;
+    }
+    .navItem{
+        text-decoration: none;
+        color:white;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+    .navItem:hover{
+        color: gray;
+    }
+    
+    h4{
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+    }
+    
+    /* h3{
+        color: wheat;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+        flex-grow: inherit;
+    
+    } */
+    .SignUp{
+        box-shadow: 2px 20px 20px rgb(12, 12, 12);
+        padding-top: 22px;
+        height: 475px;
+        width: 421px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color:rgb(226, 223, 223);
+        margin: auto;
+        display: block;
+        /* padding-left: 204px; */
+    
+    }
+    #brand{
+        font-family: 'Bona Nova', serif;
+        
+        /* color: rgb(140, 212, 235); */
+        color: white;
+        font-size: 35px;
+        
+    }
+    .Input{
+        
+        padding:20px;
+        border-radius: 5px;
+        border-color: black;
+    }
+    #password{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+        outline:none;
+    }
+    
+    #Email{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+        outline: none;
+    }
+    
+    #username{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+        outline: none;
+    }
+    #h1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        color: black;
+        padding-left: 150px;
+        display: block;
+        margin: auto;
+    }
+    
+    .btn1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      width: 20%;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: black;
+    }
+    .createUser{
+        
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+        border-radius: 10px;
+    
+     }
+    #remark{
+         color: black;
+         text-decoration: none;
+         padding-left: 101px;
+    
+     }
+    #remark:hover{
+         color: gray;
+     }
+      
+    
+    
+    .homeBtn{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 100px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 50px;
+      width: 500px;
+      display: block;
+      margin: 50px auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+      padding-right: 100px;
+    }
+    
+    #item{
+        font-family: 'Merriweather Sans', sans-serif;
+        color: rgb(204, 173, 196);
+        text-align: center;
+        padding-top: 19px;
+        padding-left: 80px;
+        padding-right: 80px;
+        flex-grow: inherit;
+        
+    }
+    .homeBtn:hover{
+        background-color: white;
+        color: black;
+    }
+    .class{
+        
+        padding-top: 20px;
+        height: 500px;
+        
+    }
+    
+    .text1{
+        color: wheat;
+        font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .text2{
+        font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        
+        color: wheat;
+    }
+    #h2{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        color: black;
+        padding-left: 150px;
+        display: block;
+        margin: auto;
+    }
+    .Post{
+        background-color: rgba(40, 31, 82, 0.37);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 700px;
+        margin: auto;
+        border-radius: 30px;
+        /* align-items: center; */
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px rgb(147, 235, 235);
+    }
+    #usern{
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        padding-right: 10px;
+        color: grey;
+    }
+    .intro{
+        display: flex;
+    }
+    #time{
+        color: grey;
+        margin-top: 10px;
+    }
+    #title{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 35px;
+        margin-top: 2px;
+        padding-left: 15px;
+        margin-bottom: 2px;
+        color: wheat;
+    }
+    #desc{
+        font-family: 'Alfa Slab One', cursive;
+        padding-left: 10px;
+        font-size: 20px;
+        color: wheat;
+        
+    }
+    #upBtn{
+        background-color:  rgba(66, 116, 150, 0.37);
+        cursor: pointer;
+        color: rgb(253, 253, 253);
+        border:none;
+        margin-left: 5px;
+        margin-right: 10px;
+        height: 30px;
+        width: 95px;
+        border-radius: 20px;
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    #downBtn{
+        cursor: pointer;
+        background-color:  rgba(66, 116, 150, 0.37);
+        color: rgb(253, 253, 253);
+        border:none;
+        margin-right: 10px;
+        height: 30px;
+        width: 95px;
+        border-radius: 20px;
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    .count{
+        color: thistle;
+        margin-left: 10px;
+        display: flex;
+    }
+    #upvote{
+        padding-right: 10px;
+        padding-left: 5px;
+    
+    }
+    #downvote{
+            padding-right: 10px;
+            padding-left: 10px;
+    }
+    #comms{
+        display: flex;
+        padding-right: 50px;
+        padding-left:20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    #comment{
+            
+            padding-right: 10px;
+            padding-left: 5px;
+        }
+    #commBtn{
+            border-radius: 10px;
+            color: wheat;
+            cursor: pointer;
+            background-color: black;
+            border: none;
+            
+        }
+        #commBtn:hover{
+            background-color: transparent;
+            border: 2px solid wheat;
+    }
+    #comment1{
+        display: block;
+        border: none;
+        border-bottom: 2px solid wheat;
+        background: transparent;
+        color: wheat;
+        width: 100%;
+        border-radius: 5px;
+        margin: auto;
+        height: 30px;
+        
+    }
+    #comment1::placeholder{
+        color: white;
+    }
+    #comment1:focus{
+       outline: none;
+    
+    }
+    .createAPost{
+        padding-left: 5px;
+        color: black;
+        font-family: 'Alfa Slab One', cursive;
+        padding-top: 2px;
+    
+    }
+    .createPost{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        /* justify-content:center; */
+        align-items: center;
+    }
+    .container1{
+        box-shadow: 2px 20px 20px rgb(2, 2, 2);
+        height: 500px;
+        width: 421px;
+        border-radius: 10px;
+        background-color: rgb(243, 221, 180);
+        margin: auto;
+        display: block;
+    }
+    #title1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+    }
+    #content1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        padding-top:20px;
+        border-radius: 10px;
+        width: 375px;
+        height: 150px;
+    }
+    #title5{
+        padding-bottom: 30px;
+        padding-left: 5px;
+    }
+    #content5{
+        padding-left: 5px;
+        padding-bottom: 30px;
+    }
+    #postBtn{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      width: 20%;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+    }
+    #postBtn:hover{
+        background-color: white;
+        color: black;
+    }
+    #delete{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        background-color:  rgba(66, 116, 150, 0.37);
+        cursor: pointer;
+        color: rgb(253, 253, 253);
+        border:none;
+        margin-left: 5px;
+        height: 30px;
+        width: 95px;
+        border-radius: 20px;
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    .DeleteIcon{
+        height:16px;
+        width: 20px;
+    }
+    #commSec{
+        display: flex;
+        height: 30px;
+        width:80%;
+        padding-left: 20px;
+        padding-bottom: 10px;
+       
+    }
+    #commUser{
+        font-family: 'Uchen', serif;
+        color: rgb(147, 235, 235);
+        padding-right: 5px;
+        text-decoration: underline;
+    }
+    #commComm{
+        font-family: 'Uchen', serif;
+        color: rgb(172, 139, 175);
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:1440px) {
+    .success{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        color: white;
+        margin: auto;
+    }
+    .menuItem1{
+        color: wheat;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    .menuItem{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      width: 30%;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+    }
+    .menuItem:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .Menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 2px 20px 20px rgb(12, 12, 12);
+        padding-top: 22px;
+        padding-bottom: 22px;
+        height: 475px;
+        width: 421px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color:rgb(226, 223, 223);
+        margin: auto;
+        /* padding-left: 204px; */
+    }
+    #dropIcon{
+        height: 30px;
+        width: 20px;
+    }
+    #navItem1{
+        color: blanchedalmond;
+        text-decoration: none;
+        height: 30px;
+    }
+    .navItem1{
+        background-color: black;
+        text-decoration: none;
+        cursor:pointer;
+        width: 50px;
+        color: blanchedalmond;
+        border: none;
+    }
+    .BigContainer{
+        width:1095px;
+    }
+        
+    body{
+        background-color: rgb(23, 23, 24)
+    
+    } 
+    .createPost{
+        /* background-color: rgb(54, 58, 57); */
+        margin: 2px solid black;
+        padding:4px;
+        display: flex;
+        /* justify-content: center; */
+        
+    
+    }
+    
+    .navbar{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction:row;
+        /* justify-content: space-between; */
+        justify-content: space-evenly;
+        padding: 2px; 
+        margin-bottom: 20px;
+    }
+    .navItem{
+        text-decoration: none;
+        color:white;
+        font-family: 'Merriweather Sans', sans-serif;
+        display: none;
+    }
+    .navItem:hover{
+        color: gray;
+    }
+    
+    h4{
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        display: none;
+    }
+    
+    /* h3{
+        color: wheat;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+        flex-grow: inherit;
+    
+    } */
+    .SignUp{
+        box-shadow: 2px 20px 20px rgb(12, 12, 12);
+        padding-top: 22px;
+        height: 475px;
+        width: 421px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color:rgb(226, 223, 223);
+        margin: auto;
+        display: block;
+        /* padding-left: 204px; */
+    
+    }
+    #brand{
+        font-family: 'Bona Nova', serif;
+        
+        /* color: rgb(140, 212, 235); */
+        color: white;
+        font-size: 35px;
+        
+    }
+    .Input{
+        
+        padding:20px;
+        border-radius: 5px;
+        border-color: black;
+    }
+    #password{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+        outline:none;
+    }
+    
+    #Email{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+        outline: none;
+    }
+    
+    #username{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+        outline: none;
+    }
+    #h1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        color: black;
+        padding-left: 150px;
+        display: block;
+        margin: auto;
+    }
+    
+    .btn1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      width: 20%;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: black;
+    }
+    .createUser{
+        
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+        border-radius: 10px;
+    
+     }
+    #remark{
+         color: black;
+         text-decoration: none;
+         padding-left: 101px;
+    
+     }
+    #remark:hover{
+         color: gray;
+     }
+      
+    
+    
+    .homeBtn{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 100px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 50px;
+      width: 500px;
+      display: block;
+      margin: 50px auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+      padding-right: 100px;
+    }
+    
+    #item{
+        font-family: 'Merriweather Sans', sans-serif;
+        color: rgb(204, 173, 196);
+        text-align: center;
+        padding-top: 19px;
+        padding-left: 80px;
+        padding-right: 80px;
+        flex-grow: inherit;
+        
+    }
+    .homeBtn:hover{
+        background-color: white;
+        color: black;
+    }
+    .class{
+        
+        padding-top: 20px;
+        height: 500px;
+        
+    }
+    
+    .text1{
+        color: wheat;
+        font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .text2{
+        font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        
+        color: wheat;
+    }
+    #h2{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+        color: black;
+        padding-left: 150px;
+        display: block;
+        margin: auto;
+    }
+    .Post{
+        background-color: rgba(40, 31, 82, 0.37);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 700px;
+        margin: auto;
+        border-radius: 30px;
+        /* align-items: center; */
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px rgb(147, 235, 235);
+    }
+    #usern{
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        padding-right: 10px;
+        color: grey;
+    }
+    .intro{
+        display: flex;
+    }
+    #time{
+        color: grey;
+        margin-top: 10px;
+    }
+    #title{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 35px;
+        margin-top: 2px;
+        padding-left: 15px;
+        margin-bottom: 2px;
+        color: wheat;
+    }
+    #desc{
+        font-family: 'Alfa Slab One', cursive;
+        padding-left: 10px;
+        font-size: 20px;
+        color: wheat;
+        
+    }
+    #upBtn{
+        background-color:  rgba(66, 116, 150, 0.37);
+        cursor: pointer;
+        color: rgb(253, 253, 253);
+        border:none;
+        margin-left: 5px;
+        margin-right: 10px;
+        height: 30px;
+        width: 95px;
+        border-radius: 20px;
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    #downBtn{
+        cursor: pointer;
+        background-color:  rgba(66, 116, 150, 0.37);
+        color: rgb(253, 253, 253);
+        border:none;
+        margin-right: 10px;
+        height: 30px;
+        width: 95px;
+        border-radius: 20px;
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    .count{
+        color: thistle;
+        margin-left: 10px;
+        display: flex;
+    }
+    #upvote{
+        padding-right: 10px;
+        padding-left: 5px;
+    
+    }
+    #downvote{
+            padding-right: 10px;
+            padding-left: 10px;
+    }
+    #comms{
+        display: flex;
+        padding-right: 50px;
+        padding-left:20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    #comment{
+            
+            padding-right: 10px;
+            padding-left: 5px;
+        }
+    #commBtn{
+            border-radius: 10px;
+            color: wheat;
+            cursor: pointer;
+            background-color: black;
+            border: none;
+            
+        }
+        #commBtn:hover{
+            background-color: transparent;
+            border: 2px solid wheat;
+    }
+    #comment1{
+        display: block;
+        border: none;
+        border-bottom: 2px solid wheat;
+        background: transparent;
+        color: wheat;
+        width: 100%;
+        border-radius: 5px;
+        margin: auto;
+        height: 30px;
+        
+    }
+    #comment1::placeholder{
+        color: white;
+    }
+    #comment1:focus{
+       outline: none;
+    
+    }
+    .createAPost{
+        padding-left: 5px;
+        color: black;
+        font-family: 'Alfa Slab One', cursive;
+        padding-top: 2px;
+    
+    }
+    .createPost{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        /* justify-content:center; */
+        align-items: center;
+    }
+    .container1{
+        box-shadow: 2px 20px 20px rgb(2, 2, 2);
+        height: 500px;
+        width: 421px;
+        border-radius: 10px;
+        background-color: rgb(243, 221, 180);
+        margin: auto;
+        display: block;
+    }
+    #title1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        border-radius: 10px;
+        width: 350px;
+        height: 25px;
+    }
+    #content1{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 15px 20px rgb(26, 23, 23);
+        padding:10px;
+        padding-top:20px;
+        border-radius: 10px;
+        width: 375px;
+        height: 150px;
+    }
+    #title5{
+        padding-bottom: 30px;
+        padding-left: 5px;
+    }
+    #content5{
+        padding-left: 5px;
+        padding-bottom: 30px;
+    }
+    #postBtn{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      border: none;
+      padding: 15px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      width: 20%;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+      box-shadow: 2px 15px 20px rgb(26, 23, 23);;
+      background-color: black;
+      color: white;
+    }
+    #postBtn:hover{
+        background-color: white;
+        color: black;
+    }
+    #delete{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        background-color:  rgba(66, 116, 150, 0.37);
+        cursor: pointer;
+        color: rgb(253, 253, 253);
+        border:none;
+        margin-left: 5px;
+        height: 30px;
+        width: 95px;
+        border-radius: 20px;
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    .DeleteIcon{
+        height:16px;
+        width: 20px;
+    }
+    #commSec{
+        display: flex;
+        height: 30px;
+        width:80%;
+        padding-left: 20px;
+        padding-bottom: 10px;
+       
+    }
+    #commUser{
+        font-family: 'Uchen', serif;
+        color: rgb(147, 235, 235);
+        padding-right: 5px;
+        text-decoration: underline;
+    }
+    #commComm{
+        font-family: 'Uchen', serif;
+        color: rgb(172, 139, 175);
+    }
+    
+}
