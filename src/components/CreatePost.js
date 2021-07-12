@@ -36,7 +36,7 @@ function CreatePost() {
         
         console.log(newPost)
         
-        axios.post("http://localhost:3001/create", newPost)
+        axios.post("https://postbox01.herokuapp.com/create", newPost)
         .then(result => {
                 console.log("done");
             })
@@ -51,7 +51,7 @@ function CreatePost() {
 
     if(token){
         console.log(token)
-        axios.post('http://localhost:3001/auth', {token:token})
+        axios.post('https://postbox01.herokuapp.com/auth', {token:token})
         .then(res=>{
             if(res.data === false){
                 history.push('/login')

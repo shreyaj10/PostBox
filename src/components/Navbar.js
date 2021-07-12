@@ -24,7 +24,7 @@ function Navbar() {
 
         if(token){
             
-            axios.post('http://localhost:3001/auth', {token:token})
+            axios.post('https://postbox01.herokuapp.com/auth', {token:token})
             .then(res=>{
                 if(res.data === false){
                     history.push('/login')
@@ -46,7 +46,7 @@ function Navbar() {
         if(token){
             
             
-            axios.post('http://localhost:3001/auth', {token:token})
+            axios.post('https://postbox01.herokuapp.com/auth', {token:token})
             .then(res=>{
                 if(res.data === false){
                     history.push('/login')
@@ -74,7 +74,7 @@ function Navbar() {
 
         if(token){
             console.log(token)
-            axios.post('http://localhost:3001/auth', {token:token})
+            axios.post('https://postbox01.herokuapp.com/auth', {token:token})
             .then(res=>{
                 if(res.data === false){
                     history.push('/login')
@@ -99,7 +99,7 @@ function Navbar() {
             if(token){
                 
                 
-                axios.post('http://localhost:3001/auth', {token:token})
+                axios.post('https://postbox01.herokuapp.com/auth', {token:token})
                 .then(res=>{
                     if(res.data === false){
                         history.push('/login')
@@ -122,7 +122,7 @@ function Navbar() {
             if(token){
                 
                 
-                axios.post('http://localhost:3001/auth', {token:token})
+                axios.post('https://postbox01.herokuapp.com/auth', {token:token})
                 .then(res=>{
                     if(res.data === false){
                         history.push('/login')

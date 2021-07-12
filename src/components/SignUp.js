@@ -40,7 +40,7 @@ function SignUp() {
 
         }
         console.log(newUser)
-        axios.post("http://localhost:3001/signup", newUser)
+        axios.post("https://postbox01.herokuapp.com/signup", newUser)
             .then(async (res) =>{
                 const data = await res.data;
                 if(data.errors){

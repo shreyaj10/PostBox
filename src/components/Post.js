@@ -48,7 +48,7 @@ function Post(props) {
             user.postsLiked.push(post1._id)
             return user 
         })
-        axios.post('http://localhost:3001/upvote', upobj)
+        axios.post('https://postbox01.herokuapp.com/upvote', upobj)
         .then(res=>{
             console.log(res)
         })
@@ -69,7 +69,7 @@ function Post(props) {
             user.postsDisliked.push(post1._id)
             return user 
         })
-        axios.post('http://localhost:3001/downvote', upobj)
+        axios.post('https://postbox01.herokuapp.com/downvote', upobj)
         .then(res=>{
             console.log(res)
         })
@@ -92,7 +92,7 @@ function Post(props) {
             })
             return user 
         })
-        axios.post('http://localhost:3001/unupvote', upobj)
+        axios.post('https://postbox01.herokuapp.com/unupvote', upobj)
         .then(res=>{
             console.log(res)
         })
@@ -114,7 +114,7 @@ function Post(props) {
             })
             return user 
         })
-        axios.post('http://localhost:3001/undownvote', upobj)
+        axios.post('https://postbox01.herokuapp.com/undownvote', upobj)
         .then(res=>{
             console.log(res)
         })
@@ -139,7 +139,7 @@ function Post(props) {
         setNocomments(prev=>{
             return prev+1
         })
-        axios.post('http://localhost:3001/comment', upobj)
+        axios.post('https://postbox01.herokuapp.com/comment', upobj)
         .then(res=>{
             console.log(res)
         })

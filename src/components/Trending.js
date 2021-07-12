@@ -29,7 +29,7 @@ function Posts() {
     }])
 
     useEffect(() => {
-        fetch("http://localhost:3001/posts")
+        fetch("https://postbox01.herokuapp.com/posts")
         .then(res=>{
             if(res.ok){
                 return res.json()
@@ -46,7 +46,7 @@ function Posts() {
         });
         let token=localStorage.getItem('token');
         if(token){
-            axios.post('http://localhost:3001/auth', {token:token})
+            axios.post('https://postbox01.herokuapp.com/auth', {token:token})
             .then(res=>{
                 if(res.data===false){
                     history.push('/login')
