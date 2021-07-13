@@ -202,9 +202,9 @@ function Post(props) {
                    <form action=''>
                        <div id="comms">
                        <input id="comment1" placeholder="Add a Public Comment" onChange={handleChange} type="text" />
-                        <button id="commBtn" onClick={handleClick}>comment</button> 
                        </div>
                    </form>
+                        <button id="commBtn" onClick={handleClick}>comment</button> 
                    </div>
                    {comments.map(comm=>{
                        return(
