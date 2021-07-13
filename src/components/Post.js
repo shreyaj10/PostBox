@@ -122,7 +122,8 @@ function Post(props) {
             console.log(err)
         })
     }
-    const handleClick=()=>{
+    const handleClick=(e)=>{
+        e.preventDefault()
         const newComment= {
             user:user1.username,
             comment:input.comment
@@ -202,9 +203,9 @@ function Post(props) {
                    <form action=''>
                        <div id="comms">
                        <input id="comment1" placeholder="Add a Public Comment" onChange={handleChange} type="text" />
+                        <button id="commBtn" onClick={handleClick}>comment</button> 
                        </div>
                    </form>
-                        <button id="commBtn" onClick={handleClick}>comment</button> 
                    </div>
                    {comments.map(comm=>{
                        return(
