@@ -65,6 +65,7 @@ function SignUp() {
     return (
         <div className="createUser">
             <form className="SignUp">
+                
                 <h1 id="h1">Sign Up</h1>
                 <div className="Input" >
                     <label form="username" ></label>

@@ -35,7 +35,6 @@ function CreatePost() {
         }
         
         console.log(newPost)
-        
         axios.post("https://postbox01.herokuapp.com/create", newPost)
         .then(result => {
                 console.log("done");
@@ -57,10 +56,7 @@ function CreatePost() {
                 history.push('/login')
             }else{
                 setUser(res.data)
-                
-               
             }
-        
         })
         .catch(errors=>{
             console.log(errors)
