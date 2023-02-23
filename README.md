@@ -1,13 +1,9 @@
-PostBox is a fully responsive real time CRUD application built with MERN stack.
+PostBox is a MERN stack application that is fully responsive and real-time, and it utilizes CRUD operations. 
 
+The app features a complex database structure and a dynamic frontend that enables users to create posts, upvote or downvote other users' posts, and comment on them. 
+It also displays real-time trending posts along with the number of upvotes, downvotes, and comments that each post has received. 
 
-It consists of a complex database structure with a dynamic frontend.
-Users can post their thoughts, upvote/downvote others' posts and comment on them.
-
-It also showcases realtime trending and upvotes, downvotes and comments on users'posts.
-Built using NodeJS, ReactJS, MongoDB and ExpressJS.
-The app is equipped with JWT authentication.
-The frontend is deployed on Netlify and backend on Heroku (discontinued)
+The application is developed using Node.js, React.js, MongoDB, and Express.js, and it comes equipped with JWT authentication. The frontend of the app is hosted on Netlify, while the backend was hosted on Heroku, which has been discontinued.
 
 # Landing Page
 ![2021-07-26 (5)](https://user-images.githubusercontent.com/87326193/220897241-37c3c5bf-43fc-4824-be0b-444c5697a0fc.png)
